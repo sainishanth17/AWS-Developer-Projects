@@ -1,0 +1,23 @@
+{
+     "$schema": "http://json-schema.org/draft-04/schema#",
+     "title": "PutUserRequest",
+     "type": "object",
+     "required":["userid", "firstname", "lastname", "department"],
+     "properties": {
+        "userid":{
+            "type":"string"
+        },  
+        "firstname":{
+            "type":"string"
+        },
+        "lastname":{
+            "type":"string"
+        },
+        "department":{
+            "type":"string"
+        },
+        "location":{
+            "type":"string"
+        }
+     }
+}
